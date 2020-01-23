@@ -2,7 +2,7 @@ import React from 'react';
 import Routes from '../../routes'
 import axios from 'axios'
 
-axios.defaults.baseURL = "http://localhost:8080"
+axios.defaults.baseURL = "https://hardware-back.herokuapp.com"
 
 function App() {
   return (
